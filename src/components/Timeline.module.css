@@ -1,0 +1,100 @@
+.main {
+  margin-bottom: 12px;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 850px;
+  /* height: 400px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.mini-timeline {
+  height: 12px;
+  /* border: 1px solid black; */
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  position: relative;
+}
+
+.zone-indicator {
+  height: 64px;
+  border: 2px solid orange;
+  position: absolute;
+  top: -24px;
+}
+
+.mini-timeline-triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+
+  border-top: 8px solid #f00;
+  position: absolute;
+  top: -18px;
+}
+
+.category-name {
+  width: 50px;
+}
+
+.category-row {
+  width: 800px;
+  height: 100px;
+  border: 1px dashed blue;
+  position: relative;
+  overflow: hidden;
+}
+
+.annotation {
+  position: absolute;
+}
+
+.timeline {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  margin-top: 64px;
+  position: relative;
+}
+
+.time-bar {
+  position: absolute;
+  top: -18px;
+}
+
+.line {
+  position: absolute;
+  height: 455px;
+  border-left: 2px solid red;
+  z-index: 999;
+  top: -5px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+
+  border-top: 8px solid #f00;
+
+  position: absolute;
+  left: -7.5px;
+  top: -5px;
+  /* top: -18px; */
+  /* left: 39px; */
+}
+
+/* .line {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  height: 8px;
+} */

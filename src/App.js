@@ -1,9 +1,11 @@
 import "./App.css";
+import Timeline from "./components/Timeline";
 
 function App() {
+
   return (
     <div>
-      <p>hi there</p>
+      <Timeline />
     </div>
   );
 }
